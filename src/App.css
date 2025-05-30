@@ -103,7 +103,7 @@ html, body, #root, .app {
 }
 .navbar.scrolled {
   box-shadow: 0 8px 32px 0 rgba(0,212,255,0.15);
-  background: rgba(19,19,26,0.92);
+  background: var(--color-navbar);
 }
 .nav-logo {
   font-weight: 900;
@@ -402,7 +402,7 @@ section[id] {
 
 /* Contact Form */
 .contact-form {
-  background: var(--color-card-dark);
+  background: var(--color-navbar);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   max-width: 420px;
@@ -475,7 +475,7 @@ section[id] {
 footer {
   text-align: center;
   padding: 2rem 0 1rem 0;
-  background: var(--color-footer);
+  background: var(--color-navbar);
   border-top: 1.5px solid var(--color-navbar-border);
   color: var(--color-muted);
   font-size: 1.02rem;
